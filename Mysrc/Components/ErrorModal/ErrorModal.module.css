@@ -1,0 +1,51 @@
+.modal-background {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.576);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-modal {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 60%;
+  min-width: 400px;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.error-modal header {
+  flex: 1;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: purple;
+}
+
+.error-modal main {
+  flex: 3;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.error-modal footer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+.error-modal footer button {
+  color: white;
+  background-color: purple;
+  padding: 3px 13px;
+  font-size: 15px;
+  cursor: pointer;
+}

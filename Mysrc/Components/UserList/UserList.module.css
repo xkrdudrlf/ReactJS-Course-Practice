@@ -1,0 +1,19 @@
+.user-list {
+  width: 60%;
+  min-width: 400px;
+  max-width: 600px;
+  padding: 15px;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.user {
+  border: 1px solid rgb(172, 172, 172);
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.user:last-of-type {
+  margin-bottom: 0;
+}

@@ -1,0 +1,33 @@
+.user-addition-form {
+  width: 60%;
+  min-width: 400px;
+  max-width: 600px;
+  padding: 15px;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.user-addition-form button {
+  color: white;
+  background-color: rgb(119, 2, 119);
+  padding: 3px 13px;
+  cursor: pointer;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input-div label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-div input {
+  height: 25px;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 3px;
+}
